@@ -16,6 +16,6 @@ let PA = +document.getElementById("PA-in").value;
 let total = (S1 + SP1 + SP2 + CS2 + PA) / 5; 
 
 // Output
-document.getElementById("output")
+document.getElementById("output").innerHTML = total;
 
 }
